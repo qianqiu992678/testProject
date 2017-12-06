@@ -4,6 +4,7 @@
   "description": "interview test",
   "main": "index.js",
   "dependencies": {
+    "less": "^2.7.3",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
