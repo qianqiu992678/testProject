@@ -1,0 +1,45 @@
+p,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  marigin: 0;
+}
+#window {
+  background: #2D2D30;
+}
+#window #windowContent {
+  visibility: hidden;
+  margin-left: 5px;
+}
+#window #windowContent #jqxMenu {
+  border: none;
+  background: #2D2D30;
+  color: #fff;
+}
+#window #windowContent #jqxMenu .jqx-widget-content {
+  background: #000;
+}
+#window #windowHeader {
+  border: none;
+  background: #2D2D30;
+  color: #999976;
+}
+#window #windowHeader .quickStart {
+  background: #NaNNaNNaN;
+  position: absolute;
+  right: 40px;
+  bottom: 2px;
+}
+#window2 {
+  background: #2D2D30 !important;
+}
+#window2 #windowHeader2 {
+  background: #007ACC;
+  color: #fff;
+}

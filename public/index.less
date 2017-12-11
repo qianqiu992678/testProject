@@ -1,3 +1,44 @@
-*{
-    marigin:0;    
-} 
+p,div,ul,li,h1,h2,h3,h4,h5,h6{
+    marigin:0;     
+}
+//主体色1
+@theme-color:#2D2D30;
+@font-color:#fff;
+
+#window{
+    background: @theme-color;
+    #windowContent{
+         visibility: hidden; 
+         margin-left: 5px;
+         #jqxMenu{
+           border:none;
+           background: @theme-color; 
+           color: @font-color; 
+           .jqx-widget-content{
+               background: #000;
+           }
+         }
+         
+    }
+    #windowHeader{
+        border: none;
+        background: @theme-color;
+        color: #999976;
+        .quickStart{
+            background: lighten(@theme-color,10%s); 
+            position: absolute;
+            right: 40px;
+            bottom: 2px;
+        }
+    } 
+      
+}
+#window2{
+     background: @theme-color !important;
+     #windowHeader2{
+         background: #007ACC;
+         color: @font-color;
+         
+     }
+ }
+
