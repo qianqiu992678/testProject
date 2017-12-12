@@ -17,17 +17,34 @@ p,div,ul,li,h1,h2,h3,h4,h5,h6{
            border:none;
            background: @theme-color; 
            color: @font-color; 
-           
+           .jqx-menu-ul{
+               li:last-child{
+                   float: right !important;
+                   margin-right: 10px;
+               }
+           }
+           .jqx-fill-state-pressed{
+               background: lighten(@theme-color,10%);
+           }
          }
-         
-         
+        .jqx-fill-state-hover{
+           background: lighten(@theme-color,10%);
+        } 
+        .jqx-fill-state-pressed{
+           background: lighten(@theme-color,10%);  
+        }
+       .activeArea{
+           visibility: visible;
+           border: 1px solid red;
+           height: 95%;
+       }  
     }
     #windowHeader{
         border: none;
         background: @theme-color;
         color: #999976;
         .quickStart{
-            background: lighten(@theme-color,10%s); 
+            background: lighten(@theme-color,10%); 
             position: absolute;
             right: 40px;
             bottom: 2px;

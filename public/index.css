@@ -26,13 +26,31 @@ h6 {
   background: #2D2D30;
   color: #fff;
 }
+#window #windowContent #jqxMenu .jqx-menu-ul li:last-child {
+  float: right !important;
+  margin-right: 10px;
+}
+#window #windowContent #jqxMenu .jqx-fill-state-pressed {
+  background: #46464a;
+}
+#window #windowContent .jqx-fill-state-hover {
+  background: #46464a;
+}
+#window #windowContent .jqx-fill-state-pressed {
+  background: #46464a;
+}
+#window #windowContent .activeArea {
+  visibility: visible;
+  border: 1px solid red;
+  height: 95%;
+}
 #window #windowHeader {
   border: none;
   background: #2D2D30;
   color: #999976;
 }
 #window #windowHeader .quickStart {
-  background: #NaNNaNNaN;
+  background: #46464a;
   position: absolute;
   right: 40px;
   bottom: 2px;
