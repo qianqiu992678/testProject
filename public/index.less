@@ -4,7 +4,10 @@ p,div,ul,li,h1,h2,h3,h4,h5,h6{
 //主体色1
 @theme-color:#2D2D30;
 @font-color:#fff;
-
+.jqx-widget-content{
+       background: @theme-color;
+       color:#fff;
+   }
 #window{
     background: @theme-color;
     #windowContent{
@@ -14,10 +17,9 @@ p,div,ul,li,h1,h2,h3,h4,h5,h6{
            border:none;
            background: @theme-color; 
            color: @font-color; 
-           .jqx-widget-content{
-               background: #000;
-           }
+           
          }
+         
          
     }
     #windowHeader{
@@ -34,11 +36,13 @@ p,div,ul,li,h1,h2,h3,h4,h5,h6{
       
 }
 #window2{
-     background: @theme-color !important;
+     
      #windowHeader2{
          background: #007ACC;
          color: @font-color;
-         
+     }
+     #windowContent2{
+        background: @theme-color; 
      }
  }
 

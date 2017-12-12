@@ -10,6 +10,10 @@ h5,
 h6 {
   marigin: 0;
 }
+.jqx-widget-content {
+  background: #2D2D30;
+  color: #fff;
+}
 #window {
   background: #2D2D30;
 }
@@ -22,9 +26,6 @@ h6 {
   background: #2D2D30;
   color: #fff;
 }
-#window #windowContent #jqxMenu .jqx-widget-content {
-  background: #000;
-}
 #window #windowHeader {
   border: none;
   background: #2D2D30;
@@ -36,10 +37,10 @@ h6 {
   right: 40px;
   bottom: 2px;
 }
-#window2 {
-  background: #2D2D30 !important;
-}
 #window2 #windowHeader2 {
   background: #007ACC;
   color: #fff;
+}
+#window2 #windowContent2 {
+  background: #2D2D30;
 }
